@@ -18,4 +18,13 @@ jobs:
       - name: Install packages
         run: npm install
       - name: E2E Test
-        run: npm run test:e2e:dev
+        run: npm run test:e2e
+  UnitTest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: npm install
+      - name: Unit Test
+        run: npm run test:unit
+    

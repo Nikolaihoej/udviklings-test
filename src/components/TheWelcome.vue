@@ -5,7 +5,7 @@ import ToolingIcon from './icons/IconTooling.vue';
 import EcosystemIcon from './icons/IconEcosystem.vue';
 import CommunityIcon from './icons/IconCommunity.vue';
 import SupportIcon from './icons/IconSupport.vue';
-import testlol from './testlol.vue'
+
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import testlol from './testlol.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Documentation</template>
-    <testlol/>
+
 
     Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>

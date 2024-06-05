@@ -18,8 +18,4 @@ describe('TheWelcome.vue', () => {
     expect(wrapper.html()).toContain('https://vuejs.org/')
   })
 
-  it('renders testlol component', () => {
-    const wrapper = mount(TheWelcome)
-    expect(wrapper.findComponent({ name: 'testlol' })).toBeTruthy()
-  })
 })
